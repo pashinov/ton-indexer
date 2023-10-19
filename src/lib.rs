@@ -1,3 +1,5 @@
+#![feature(nonzero_min_max)]
+
 pub use crate::config::*;
 pub use crate::db::RocksdbStats;
 pub use crate::engine::{
